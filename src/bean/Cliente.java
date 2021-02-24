@@ -7,9 +7,10 @@ public class Cliente {
 	private String nome;
 	private String tel;
 	
-	public Cliente(String cpf, String nome) {
+	public Cliente(String cpf, String nome, String tel) {
 		this.cpf=cpf;
 		this.nome=nome;
+		this.tel=tel;
 	}
 
 	@Override
